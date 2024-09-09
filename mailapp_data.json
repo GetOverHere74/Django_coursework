@@ -1,0 +1,39 @@
+[
+{
+    "model": "mailapp.client",
+    "pk": 1,
+    "fields": {
+        "name": "ФИО",
+        "email": "zhitkov.maks2015@yandex.ru",
+        "comment": "Тестовая рассылка",
+        "owner": 3,
+        "count": 1
+    }
+},
+{
+    "model": "mailapp.message",
+    "pk": 1,
+    "fields": {
+        "letter_subject": "Тестовая рассылка",
+        "body": "тест",
+        "owner": 3
+    }
+},
+{
+    "model": "mailapp.newsletter",
+    "pk": 1,
+    "fields": {
+        "name": "без названия",
+        "message": 1,
+        "start_time": "2024-09-09T11:04:19Z",
+        "end_time": "2024-09-09T12:04:19Z",
+        "frequency": "MINUTLY",
+        "status": "FINISHED",
+        "owner": 3,
+        "count": 2,
+        "client": [
+            1
+        ]
+    }
+}
+]
