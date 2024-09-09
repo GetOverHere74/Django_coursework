@@ -1,0 +1,64 @@
+[
+{
+    "model": "users.user",
+    "pk": 1,
+    "fields": {
+        "password": "pbkdf2_sha256$600000$rPvIaSc5EcmJngWVoXmXQh$l7ukmBWaml9TszrI4awP0seEeshYM7v2nLzFcaWXUec=",
+        "last_login": "2024-09-09T12:59:24.180Z",
+        "is_superuser": true,
+        "first_name": "",
+        "last_name": "",
+        "is_staff": true,
+        "is_active": true,
+        "date_joined": "2024-09-09T09:52:59.358Z",
+        "email": "admin@example.com",
+        "avatar": "",
+        "phone": null,
+        "token": null,
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "users.user",
+    "pk": 3,
+    "fields": {
+        "password": "pbkdf2_sha256$600000$M50FdzJ3zn2l6t963b3ATV$dxkEEQ+o+59wx38SjYxk2Sz7A9dGAufDDnAXjaZlrGE=",
+        "last_login": "2024-09-09T10:53:48.597Z",
+        "is_superuser": false,
+        "first_name": "Тест",
+        "last_name": "Тестов",
+        "is_staff": false,
+        "is_active": true,
+        "date_joined": "2024-09-09T10:52:56.110Z",
+        "email": "zhitkov.maks2015@yandex.ru",
+        "avatar": "",
+        "phone": "+79999999999",
+        "token": "dfb356afee59a11063c616f43bc99e93",
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "users.user",
+    "pk": 4,
+    "fields": {
+        "password": "123",
+        "last_login": null,
+        "is_superuser": false,
+        "first_name": "Тест",
+        "last_name": "Тестов",
+        "is_staff": true,
+        "is_active": true,
+        "date_joined": "2024-09-09T12:56:57Z",
+        "email": "test@test.com",
+        "avatar": "",
+        "phone": null,
+        "token": null,
+        "groups": [
+            1
+        ],
+        "user_permissions": []
+    }
+}
+]
