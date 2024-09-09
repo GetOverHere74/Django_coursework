@@ -1,0 +1,41 @@
+[
+{
+    "model": "blog.blog",
+    "pk": 1,
+    "fields": {
+        "title": "Тест",
+        "slug": "",
+        "content": "Тест блог",
+        "preview": "blog/preview/blog-board1.jpg",
+        "created_at": "2024-09-09",
+        "number_of_views": 3,
+        "is_published": true
+    }
+},
+{
+    "model": "blog.blog",
+    "pk": 2,
+    "fields": {
+        "title": "Тест блог 2",
+        "slug": "2",
+        "content": "Тест",
+        "preview": "blog/preview/690x380_0x0a330c2a_14263452901600432118.jpeg",
+        "created_at": "2024-09-09",
+        "number_of_views": 0,
+        "is_published": true
+    }
+},
+{
+    "model": "blog.blog",
+    "pk": 3,
+    "fields": {
+        "title": "Тест блог 3",
+        "slug": "3",
+        "content": "Тест 3",
+        "preview": "blog/preview/1-Blog-1.jpg",
+        "created_at": "2024-09-09",
+        "number_of_views": 0,
+        "is_published": true
+    }
+}
+]
